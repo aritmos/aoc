@@ -22,6 +22,7 @@ where
     ];
     let bytes = s.as_bytes();
     for i in iter {
+        // faster than adding these into the `starts_with` iterator scan
         if bytes[i].is_ascii_digit() {
             return bytes[i] - b'0';
         }
