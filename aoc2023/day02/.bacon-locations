@@ -1,1 +1,0 @@
-error /home/aritmos/dev/aoc/aoc2023/day02/src/bin/pt1-nom.rs:1:5 unresolved import `day02::parse_input`
